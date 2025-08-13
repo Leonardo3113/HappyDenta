@@ -124,7 +124,7 @@ export default function Home() {
     {/* Mobile: expanded text link */}
     {isExpanded && (
       <a
-        href="https://wa.me/62811726242?text=Halo%20HappyDenta%2C%20saya%20ingin%20konsultasi%20mengenai%20perawatan%20gigi."
+        href="https://wa.me/6287883365852"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center gap-3 font-semibold text-base bg-[#00B6D6] text-white rounded-full shadow-xl px-6 py-4 md:hidden"
@@ -137,7 +137,7 @@ export default function Home() {
 
     {/* Desktop: combined phone icon and text link */}
     <a
-      href="https://wa.me/62811726242?text=Halo%20HappyDenta%2C%20saya%20ingin%20konsultasi%20mengenai%20perawatan%20gigi."
+      href="https://wa.me/6287883365852"
       target="_blank"
       rel="noopener noreferrer"
       className="hidden md:flex items-center justify-center gap-3 bg-[#00B6D6] text-white rounded-full shadow-xl px-6 py-4 hover:bg-[#0095b0] transition-all hover:scale-105"
@@ -278,7 +278,7 @@ export default function Home() {
                   Kami siap membantu kamu mencapai itu dengan perawatan terbaik!
                 </p>
                 <a 
-                  href="https://wa.me/62811726242?text=Halo%20HappyDenta%2C%20saya%20ingin%20konsultasi%20mengenai%20perawatan%20gigi." 
+                   href="https://wa.me/6287883365852"
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
@@ -520,7 +520,7 @@ export default function Home() {
                 },
                 {
                   question: "Bagaimana cara membuat janji temu?",
-                  answer: "Anda bisa reservasi melalui WhatsApp di +62 811 7262 423, DM Instagram kami @klinikgigilampung, atau langsung datang ke klinik."
+                  answer: "Anda bisa reservasi melalui WhatsApp di +62 878 8336 5852 atau langsung datang ke klinik."
                 },
                 {
                   question: "Apakah bisa perawatan behel di Happy Denta?",
@@ -532,7 +532,7 @@ export default function Home() {
                 },
                 {
                   question: "Di mana lokasi Klinik Happy Denta?",
-                  answer: "Kami beralamat di Jl. Teuku Umar No.67, Sidodadi, Kec. Kedaton, Kota Bandar Lampung, Lampung. Lokasi mudah dijangkau dan tersedia parkir kendaraan."
+                  answer: "Kami beralamat di Jl. Teuku Umar No.1, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35132. Lokasi mudah dijangkau dan tersedia parkir kendaraan."
                 }
               ].map(({ question, answer }, index) => (
                 <details key={index} className="border border-gray-300 rounded-lg group">
@@ -570,9 +570,7 @@ export default function Home() {
                       <MapPin className="h-6 w-6 text-[#00B6D6] flex-shrink-0 mt-1" />
                       <div className="ml-3">
                         <p className="text-base text-gray-700">
-                          Jl. Teuku Umar No.67<br />
-                          Sidodadi, Kec. Kedaton<br />
-                          Kota Bandar Lampung, Lampung 35123
+                        Jl. Teuku Umar No.1, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35132
                         </p>
                       </div>
                     </div>
@@ -589,7 +587,7 @@ export default function Home() {
                       <Phone className="h-6 w-6 text-[#00B6D6] flex-shrink-0 mt-1" />
                       <div className="ml-3">
                         <p className="text-base text-gray-700">
-                          +62 811 7262 423
+                          +62 878 8336 5852 
                         </p>
                       </div>
                     </div>
@@ -597,7 +595,7 @@ export default function Home() {
                 </div>
                 <div className="relative h-96 sm:h-full">
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.2834772147342!2d105.2598011!3d-5.3928682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40db00511cbe15%3A0xb291a9b22000cff9!2sKlinik%20HappydentA%20%2F%20Drg%20Aprillia%20Denta!5e0!3m2!1sen!2sid!4v1708472431651!5m2!1sen!2sid"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.230676331324!2d105.25684437474371!3d-5.38176299459715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40dadbf747a523%3A0x37e8357ac97dfe16!2sJl.%20Teuku%20Umar%20No.1%2C%20Kedaton%2C%20Kec.%20Kedaton%2C%20Kota%20Bandar%20Lampung%2C%20Lampung%2035132!5e0!3m2!1sen!2sid!4v1755105465855!5m2!1sen!2sid"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -626,7 +624,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href="https://wa.me/62811726242?text=Halo%20HappyDenta%2C%20saya%20ingin%20konsultasi%20mengenai%20perawatan%20gigi." 
+                  href="https://wa.me/6287883365852"
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
@@ -653,7 +651,7 @@ export default function Home() {
                 <span className="text-white">Denta</span>
               </h3>
               <p className="text-gray-400 mb-6">
-                Klinik gigi modern dengan layanan perawatan gigi berkualitas untuk senyum sehat dan menawan Anda.
+                "Klinik gigi modern dengan teknologi terkini untuk menjaga senyum Anda tetap sehat dan memikat."
               </p>
             </div>
             <div>
@@ -665,11 +663,11 @@ export default function Home() {
                 </p>
                 <p className="flex items-center text-gray-400 hover:text-[#00B6D6] transition-colors">
                   <MapPin className="w-8 h-8 mr-3 text-[#00B6D6]" />
-                  Jl. Teuku Umar No.67, Sidodadi, Kec. Kedaton, Kota Bandar Lampung, Lampung
+                  Jl. Teuku Umar No.1, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35132
                 </p>
                 <p className="flex items-center text-gray-400 hover:text-[#00B6D6] transition-colors">
                   <Phone className="w-5 h-5 mr-3 text-[#00B6D6]" />
-                  +62 811 7262 423
+                  +62 783 365 852
                 </p>
               </div>
             </div>
